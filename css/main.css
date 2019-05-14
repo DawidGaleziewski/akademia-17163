@@ -27,4 +27,19 @@
     margin: 4rem auto;
     color: white;
     padding: 2rem;
+
+    border: 5px solid rgb(107, 11, 30);
+    border-radius: 10px;
+}
+
+.par-info {
+    font-size: 1.5rem;
+    border-bottom: 1px solid crimson;
+    padding: 1rem;
+}
+
+.par-info::first-letter{
+    text-transform: uppercase;
+    color: crimson;
+
 }

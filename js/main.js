@@ -15,7 +15,7 @@ $(document).ready(function(){
 
         // create a paragraph for each key in the object
         for(let key in object){
-            createdDiv.append($('<p></p>').text(key + ' programisty --- ' + object[key]))
+            createdDiv.append($('<p></p>').text(key + ' programisty --- ' + object[key]).attr('class', 'par-info'))
         }
 
         // add the final div to the page after button
